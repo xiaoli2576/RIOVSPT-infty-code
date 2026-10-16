@@ -1,0 +1,9 @@
+{
+  "instances": 24,
+  "parametric_cases": 96,
+  "passed": 96,
+  "max_error": 7.105427357601002e-15,
+  "max_violation": 5.329070518200751e-15,
+  "counterexample_points": 12,
+  "counterexample_passed": 12
+}

@@ -1,0 +1,10 @@
+2026年10月15日 23:39:38
+== correctness 2026年10月15日 23:39:42
+== performance 2026年10月15日 23:39:45
+== sensitivity 2026年10月15日 23:45:39
+== large 2026年10月15日 23:45:54
+== spit 2026年10月16日  0:01:38
+{"instances": 24, "parametric_cases": 96, "passed": 96, "max_error": 7.105427357601002e-15, "max_violation": 5.329070518200751e-15, "counterexample_points": 12, "counterexample_passed": 12}
+== branches 2026年10月16日  0:01:39
+Completed branch comparison: 432 measured rows / 36 instances.
+== done 2026年10月16日  0:02:25

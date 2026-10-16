@@ -1,0 +1,135 @@
+{
+  "correctness": {
+    "expected_rows": 1652,
+    "rows": 1652,
+    "duplicates": 0,
+    "instances": 413,
+    "passed_instances": 413,
+    "status_counts": {
+      "infeasible": 1292,
+      "optimal": 360
+    },
+    "branch_counts": {
+      "infeasible": 323,
+      "hard-positive": 52,
+      "up": 30,
+      "middle": 6,
+      "singleton": 1,
+      "hard-zero": 1
+    },
+    "max_objective_discrepancy": 3.055333763768431e-13,
+    "solver_unresolved_calls": {},
+    "instances_with_solver_reference": 413,
+    "max_constraint_violation": 8.526512829121202e-14,
+    "max_function_seconds": 0.019319000013638288,
+    "lp_feasible": 90,
+    "lp_infeasible": 323,
+    "gurobi_infeasible": 323
+  },
+  "performance": {
+    "expected_rows": 900,
+    "rows": 900,
+    "duplicates": 0,
+    "instances": 75,
+    "passed_instances": 75,
+    "status_counts": {
+      "optimal": 900
+    },
+    "branch_counts": {
+      "hard-positive": 44,
+      "up": 24,
+      "hard-zero": 7
+    },
+    "max_objective_discrepancy": 2.846052386817899e-14,
+    "solver_unresolved_calls": {},
+    "instances_with_solver_reference": 75,
+    "max_constraint_violation": 1.6007106751203537e-10,
+    "max_function_seconds": 8.333362800010946
+  },
+  "large": {
+    "expected_rows": 105,
+    "rows": 105,
+    "duplicates": 0,
+    "instances": 15,
+    "passed_instances": 15,
+    "status_counts": {
+      "optimal": 105
+    },
+    "branch_counts": {
+      "hard-positive": 10,
+      "up": 4,
+      "hard-zero": 1
+    },
+    "max_objective_discrepancy": 1.835219869410383e-14,
+    "solver_unresolved_calls": {},
+    "instances_with_solver_reference": 15,
+    "max_constraint_violation": 1.775333657860756e-09,
+    "max_function_seconds": 334.72082640000735
+  },
+  "sensitivity": {
+    "expected_rows": 720,
+    "rows": 720,
+    "duplicates": 0,
+    "instances": 60,
+    "passed_instances": 60,
+    "status_counts": {
+      "optimal": 720
+    },
+    "branch_counts": {
+      "hard-positive": 60
+    },
+    "max_objective_discrepancy": 1.3053100267335083e-13,
+    "solver_unresolved_calls": {},
+    "instances_with_solver_reference": 60,
+    "max_constraint_violation": 8.881784197001252e-15,
+    "max_function_seconds": 0.03477019999991171
+  },
+  "branches": {
+    "expected_rows": 432,
+    "rows": 432,
+    "duplicates": 0,
+    "instances": 36,
+    "passed_instances": 36,
+    "status_counts": {
+      "optimal": 432
+    },
+    "branch_counts": {
+      "middle": 9,
+      "up": 9,
+      "hard-zero": 9,
+      "hard-positive": 9
+    },
+    "max_objective_discrepancy": 4.440892098500626e-15,
+    "solver_unresolved_calls": {},
+    "instances_with_solver_reference": 36,
+    "max_constraint_violation": 8.881784197001252e-16,
+    "max_function_seconds": 0.5515459000016563
+  },
+  "branch_runtime_comparisons": {
+    "middle": {
+      "instances": 9,
+      "median_A3_over_A2": 1.9193071394758359,
+      "A2_faster": 9,
+      "A3_faster": 0
+    },
+    "up": {
+      "instances": 9,
+      "median_A3_over_A2": 1.8804428593536437,
+      "A2_faster": 9,
+      "A3_faster": 0
+    },
+    "hard-zero": {
+      "instances": 9,
+      "median_A3_over_A2": 1.6214911977648099,
+      "A2_faster": 9,
+      "A3_faster": 0
+    },
+    "hard-positive": {
+      "instances": 9,
+      "median_A3_over_A2": 0.8670108470118687,
+      "A2_faster": 0,
+      "A3_faster": 9
+    }
+  },
+  "problem_count": 0
+}
